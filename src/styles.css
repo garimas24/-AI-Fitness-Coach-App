@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+
+:root {
+  --glass: rgba(255,255,255,0.06);
+  --glass-2: rgba(255,255,255,0.03);
+}
+
+html,body,#root { height: 100%; }
+
+body {
+  @apply bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-slate-100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.card {
+  @apply bg-gradient-to-tr from-slate-800/70 to-slate-900/60 backdrop-blur-md rounded-xl p-4 shadow-lg border border-slate-700/40;
+}
+.btn {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium;
+}
+.btn-primary { @apply bg-indigo-600 hover:bg-indigo-500 text-white; }
+.btn-ghost { @apply bg-transparent border border-slate-600/40 text-white; }
+.small-muted { @apply text-sm text-slate-400; }
