@@ -1,16 +1,47 @@
-# React + Vite
+AI Fitness Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered fitness planning app built with React + TailwindCSS + LLM API (OpenAI/Gemini/Claude).
+The app generates personalized workout plans, diet plans, and fitness tips based on user input — nothing is hardcoded.
 
-Currently, two official plugins are available:
+ ## Features
+ Personalized Workout Plan
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Daily exercise schedule
 
-## React Compiler
+Sets, reps & rest timing
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Beginner → advanced progression
 
-## Expanding the ESLint configuration
+Tailored to user’s goals
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ ## Tailored Diet Plan
+
+Breakfast, lunch, dinner, snacks
+
+Veg / Non-veg / Vegan friendly
+
+Calorie range based on age, activity level
+
+Clean JSON structure for easy rendering
+
+## AI Tips & Motivation
+
+Posture and form corrections
+
+Lifestyle and routine advice
+
+Motivational guidance
+
+##Tech Stack
+
+| Technology                         | Usage                                |
+| ---------------------------------- | ------------------------------------ |
+| **React**                          | UI + component architecture          |
+| **TailwindCSS**                    | Styling and glassmorphism UI         |
+| **LLM API** (OpenAI/Gemini/Claude) | Generating AI content                |
+| **Vite**                           | Development environment              |
+| **Prompt Engineering**             | For consistent, structured responses |
+
+
+"Overall, this project showcases prompt engineering, LLM integration, clean React architecture, and a polished UI.
+It behaves like a real AI SaaS app — every response is personalized and AI-generated."
